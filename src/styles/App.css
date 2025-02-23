@@ -1,12 +1,40 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* App.css */
 
-button{
-    color: #27aedb;
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
+    height: 100vh;
+  }
+  
+  #ns-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .project-card {
+    background: white;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h6 {
+    font-size: 16px;
+    color: #666;
+  }
+  
